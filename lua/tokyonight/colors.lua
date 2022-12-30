@@ -95,6 +95,34 @@ M.moon = function()
   return ret
 end
 
+M.neo = {
+  bg = "#1a1b20",
+  bg_dark = "#141516",
+  bg_highlight = "#2b2c33",
+  fg = "#cadafe",
+  fg_dark = "#a9b1e6",
+  fg_gutter = "#3b4271",
+  red = "#f44336",
+  red1 = "#ff5252",
+  green = "#9fb0ef",
+  green1 = "#01a6b6",
+  green2 = "#487dba",
+  orange = "#96c5fa",
+  yellow = "#ccFd66",
+  yellow1 = "#FeEB3B",
+  blue = "#5d85ef",
+  blue1 = "#01a6b6",
+  blue2 = "#3196d7",
+  blue3 = "#487daa",
+  blue4 = "#184daa",
+  purple = "#c58efb",
+  purple2 = "#3f41a5",
+  magenta = "#997edf",
+  magenta1 = "#d070ea",
+  magenta2 = "#CC66FF",
+  teal = "#3acfe8",
+}
+
 ---@return ColorScheme
 function M.setup(opts)
   opts = opts or {}
